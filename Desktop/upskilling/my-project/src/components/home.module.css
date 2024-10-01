@@ -1,0 +1,40 @@
+.ComponentA {
+    background: url('src/assets/img_bg_2-DzCs5o-0.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+ }
+ 
+ .ComponentB {
+     background: url('src/assets/img_bg_1-PzvG2r05.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 106%;   
+
+ }
+ 
+ 
+ 
+ @media (max-width: 640px) {
+    .ComponentA { 
+      background-position: center;
+      width: 100%;
+      height:100% ; 
+      background-attachment: fixed;
+    }
+    .ComponentB {
+      background-position: center;
+      width: 100%;
+      height:100% ; 
+      background-attachment: fixed;
+    }
+
+
+  }
+ 
